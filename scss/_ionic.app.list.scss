@@ -1,9 +1,11 @@
 body {
   font-family: "Open Sans", sans-serif;
+  color:#white;
 }
 
-h3 {
+h1, h3 {
   font-weight: bold;
+  color:#6CC0F1;
 }
 
 .round {
@@ -14,15 +16,21 @@ h3 {
 }
 
 .item-icon {
-  background: #234489;
+  background: #0366A0;/*#234489;*/
   color: white;
 }
 
 .borderless-card {
   @extend .card;
   box-shadow: none;
+  padding: 0;
+  border-radius: 0;
 }
 
 .item-image img:first-child {
-  width: 70%;
+  /*width: 70%;*/
+}
+
+ion-content.scroll-content {
+  background-color: #0366A0;/*#6cbff1;*/
 }

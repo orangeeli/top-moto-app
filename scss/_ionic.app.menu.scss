@@ -1,0 +1,12 @@
+.item.item-complex a.item-content, .menu-item-a {
+  background-color: #0366A0;
+  color: #6CC0F1;
+}
+
+.item {
+  border-color: #6CC0F1;
+}
+
+.item:first-child {
+  border-top-width: 0px;
+}

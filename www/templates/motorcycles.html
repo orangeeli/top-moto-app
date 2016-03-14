@@ -1,21 +1,16 @@
-<ion-view view-title="Motorcycles">
+<ion-view view-title="Motorräder">
   <ion-content>
     <div class="list">
 
-      <div class="row" ng-repeat="item in motorcycles">
+      <div class="row moto-row" ng-repeat="item in motorcycles">
 
-        <a href="#/app/motorcycles/{{item.id}}"
-           style="height:100%;width:100%;position:absolute;">
+        <a href="#/app/motorcycles/{{item.id}}" class="moto-link">
         </a>
-           <div class="col col-25"
+        <div class="col col-25"
            style="height:80px; background: url({{ item.image }}) no-repeat; background-size:cover;">
-             <!--img ng-src="{{ item.image }}"-->
-           </div>
+        </div>
 
-           <div class="col col-75"><h2>{{ item.name }}</h2>
-           <p>Detalhes</p>
-           <!--span class="badge badge-assertive">{{ item.price }}</span></div-->
-      </div>
+        <div class="col col-75 col-white"><h3 class="moto-name">{{ item.name }}</h3></div>
 
       </div>
   </ion-content>
