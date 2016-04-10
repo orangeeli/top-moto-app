@@ -9796,7 +9796,9 @@ a.assertive {
   /*FF693A*/ }
 
 h3.moto-name {
-  color: #FF693A; }
+  /*color: #FF693A;*/
+  color: #000;
+  font-weight: normal; }
 
 .item a {
   text-decoration: none;

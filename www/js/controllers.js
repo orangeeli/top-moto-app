@@ -75,5 +75,11 @@ angular.module('starter.controllers', [])
   ];
 })
 
+.controller('SearchCtrl', function($scope, $state) {
+  $scope.search = function(){
+    $state.go('app.motorcycles');
+  }
+})
+
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
