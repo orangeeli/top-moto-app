@@ -19,5 +19,7 @@ The contact's page
 
 In terms of design, it is very similar to the original website, except for the font. The colours follow the original colour scheme and the logo has also been reviewed and improved.
 
+The app can be found live [here](http://pirate-rhinoceros-18750.netlify.com/).
+
 ## License
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
