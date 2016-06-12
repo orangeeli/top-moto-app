@@ -10,12 +10,9 @@ The app was developed with the hybrid mobile app framework, [IONIC](http://ionic
 
 The contains only three sections from the original website:
 
-* Home
-The home.
-* Verkauf
-The motorcycles to sell page
-* Kontakt
-The contact's page
+* Home - The home.
+* Verkauf - The motorcycles to sell page
+* Kontakt - The contact's page
 
 In terms of design, it is very similar to the original website, except for the font. The colours follow the original colour scheme and the logo has also been reviewed and improved.
 
